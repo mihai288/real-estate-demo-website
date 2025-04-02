@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Apartamente - Timisoara, Romania | Premium Residence</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<header>
+  <img src="images/premiumlogo.png"
+     alt="Company Logo"
+     class="logo">
+
+  <a class="nav-btn" href="index.html">Acasa</a>
+  <a class="nav-btn" href="apartaments.html">Apartamente</a>
+  <a class="nav-btn" href="contact.html">Despre Noi</a>
+  <a class="nav-btn" href="articole.html">Articole</a>
+
+  <a class="contact-us" href="#form-container">Contacteaza-ne</a>
+</header>
+
+<body>
+
+<section class="background">
+  <p id="bg-text1">Complex</p>
+  <h1 id="bg-hdr">Premium <span style="color:#e8e8e8;">Residence</span></h1>
+  <h2 style="font-size: 30px; color:white; text-shadow: 0 0 5px black;">Timisoara</h2>
+
+  <section class="contact-on-background">
+    <a class="contact-us" id="contact-btn" href="apartaments.html">Toate Locuintele</a>
+  </section>
+
+  <section class="conctact-email-phone" id="form-container">
+    <a style="background: none;" href="mailto:complexpremiumresidence@gmail.com">complexpremiumresidence@gmail.com</a>
+    <a style="background: none;" href="tel:+40729004287">0729 004 287</a>
+  </section>
+
+  <section class="form-container">
+    <h3>Descoperă viitoarea ta locuinta la Premium Residence</h3>
+    <p>Contactați-ne pentru mai multe informații!</p>
+
+    <form class="contact-form">
+      <label>Prenume*</label>
+      <input type="text" placeholder="Prenume">
+      <label>Nume*</label>
+      <input type="text" placeholder="Nume"><br>
+      <label>E-mail*</label>
+      <input type="text" placeholder="E-mail"><br>
+      <label>Mesaj*</label>
+      <textarea type="textarea" placeholder="Mesaj"></textarea>
+      <button type="submit">Trimite</button>
+    </form>
+
+  </section>
+
+</section>
+
+<h2 style="text-align: center; margin-top: 45px;">Unde ne gasesti?</h2>
+
+<section class="map-container">
+  <section id="map">
+  <script>
+    function initMap() {
+      const location = { lat: 45.716282, lng: 21.260940 };
+
+      // Creează harta
+      const map = new google.maps.Map(document.getElementById("map"), {
+        zoom: 14,
+        center: location,
+      });
+
+      // Adaugă un marker pe locație
+      const marker = new google.maps.Marker({
+        position: location,
+        map: map,
+        title: "Timisoara",
+      });
+    }
+  </script>
+
+  <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAp77rPhL1MGqQVwBNQwO9I_v-oCMtJ9A0&callback=initMap">
+  </script>
+</section>
+</section>
+
+<section class="conctact-email-phone">
+  <a href="mailto:complexpremiumresidence@gmail.com">complexpremiumresidence@gmail.com</a>
+  <a href="tel:+40729004287">0729 004 287</a>
+</section>
+
+<h3 style="text-align: center; margin-top: 45px; font-size: 25px;">Recenzii de la locatari si clienti</h3>
+<section class="reviews-container">
+
+  <section class="reviews">
+    <section class="review">
+    <span style="font-weight: bold; font-size: 19px;">mircea stoianovici</span> <span>⭐⭐⭐⭐⭐</span>
+    <div>
+    <span>Super apartamente. Foarte bine construite</span>
+    </div>
+  </section>
+
+  <section class="review">
+    <span style="font-weight: bold; font-size: 19px;">Wiz Dumi d</span> <span>⭐⭐⭐⭐⭐</span>
+    <div>
+    <span>Atmosferă primitoare</span>
+    </div>
+  </section>
+
+
+  </section>
+
+</section>
+
+</body>
+
+<section class="pre-footer">
+  <img src="images/premiumlogo.png"
+     alt="Company Logo"
+     class="logo"><br>
+  <span>Strada Liliacului, Giroc, Timișoara 300748 | </span>
+  <span>0729 004 287 | </span>
+  <span>complexpremiumresidence@gmail.com</span><br><br>
+  <p style="font-size:20px; color:#a8a8a8; margin-left: 15%; margin-right: 15%;">Imobilele sunt construite din caramida Porotherm izolate cu polistiren de 10 cm. Apartamentele sunt finisate cu produse de cea mai buna calitate. Toate finisajele sunt realizate mecanizat. Fiecare apartament este dotat cu centrala proprie pe gaz, este racordat la toate utilitatile ( apa, gaz, canal, curent, internet si tv prin fibra optica) si beneficiaza de un loc de parcare.</p>
+
+</section>
+
+<footer>
+  <a href="cookies.html">Politica de cookie-uri</a>
+  <a href="aviz-juridic.html">Aviz juridic</a>
+  <a href="politica-de-confidentialitate.html">Politica de confidențialitate</a>
+  <p>© 2025 Mihai Diaconu</p>
+
+  <img src="images/logff.png"/>
+</footer>
+
+</html>
